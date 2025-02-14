@@ -16,12 +16,16 @@ This application provides a real-time collaborative editing experience, Multiple
    cd colab-app
    
 2.**Build and run the Docker container:**
+
   docker build -t colab-app-v1 .
+
   docker run -p 5000:5000 colab-app-v1
   
 3.**Access the editor:**
 
- Open two browser windows (or tabs) and navigate to http://localhost:5000 in each.
+ Open two browser windows (or tabs) and navigate to 
+ http://localhost:5000 
+ in each.
 
 4.**Start collaborating:**
 
